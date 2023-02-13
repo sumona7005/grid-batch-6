@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: gray;
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* grid-template-rows: repeat(3, 100px); */
+}
+
+.box {
+  background: pink;
+}
+
+.menu{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.menu div{
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}

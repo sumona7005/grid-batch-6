@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.menu{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.menu div{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
